@@ -4,6 +4,8 @@ node_js:
 - "10"
 before_script:
 - CI=false && npm run build:static && CI=true
+install:
+  npm config set package-lock false
 script:
 - npm run test
 cache:
