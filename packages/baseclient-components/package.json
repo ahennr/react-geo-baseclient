@@ -19,6 +19,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@brainhubeu/react-carousel": "^1.10.17",
     "@terrestris/mapfish-print-manager": "^3.0.0"
   },
   "devDependencies": {
